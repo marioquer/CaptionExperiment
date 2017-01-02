@@ -1,0 +1,65 @@
+#myVideo {
+    display: inline-block;
+}
+
+col_1 {
+    width: 10%;
+}
+
+col_8 {
+    width: 80%;
+}
+
+::cue(.fg0) {
+    padding: 4px 4px;
+    color: white;
+}
+
+::cue(.fg1) {
+    color: white;
+}
+
+::cue(.fg2) {
+    color: white;
+}
+
+::cue(.bg0) {
+    background-color: firebrick;
+}
+
+::cue(.bg1) {
+    background-color: seagreen;
+}
+
+::cue(.bg2) {
+    background-color: dodgerblue;
+}
+
+#container {
+    text-align: center;
+}
+
+#label {
+    height: 80px;
+    width: 100%;
+}
+
+#record {
+    width: 75%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.none {
+    display: none;
+}
+
+.table {
+    width: 100%;
+}
+
+#recordTable {
+    width: 100%;
+    text-align: left;
+    line-height: 22px;
+}
